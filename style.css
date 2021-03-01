@@ -56,6 +56,11 @@ h2{
     bottom: 20px;
     left: 25%;
 }
+.form.active h2 ,
+.form.active img {
+    display: inline-block;
+
+}
 .form:hover h2{
     display: inline-block;
 }
