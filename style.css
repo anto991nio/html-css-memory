@@ -3,3 +3,40 @@
     padding: 0;
     margin: 0;
 }
+
+html{
+    font-family: 'Lobster', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
+
+body{
+    background-color: rgb(173, 216, 230);
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    margin: 30px 0 30px 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form{
+    width: 20%;
+    background-image: url( pattern.png);    
+    height: 300px;
+    float: left;
+    margin: 20px 2.5% 0 2.5%  ;
+    background-size: contain;
+}
