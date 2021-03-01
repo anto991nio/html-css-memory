@@ -43,9 +43,49 @@ h1{
 
 img{
     width: 100%;
-    height: 100%;
+    height: 90%;
     object-fit: contain;
     background-color: white;
+    display: none;
+    position: relative;
+}
+
+h2{
+    display: none;
+    position: relative;
+    bottom: 20px;
+    left: 25%;
+}
+.form:hover h2{
+    display: inline-block;
+}
+
+.form:hover img{
+    display: inline-block;
+}
+
+.balloon + h2{
+    color: orange;
+}
+
+.submarine + h2{
+    color: aqua;
+}
+
+.cruiseship + h2{
+    color: blue;
+}
+
+.tractor + h2{
+    color: brown;
+}
+
+.tram + h2{
+    color: chocolate;
+}
+
+.bicycle + h2{
+    color: darkgreen;
 }
 
 footer{
@@ -53,3 +93,4 @@ footer{
     height: 100PX;
     line-height: 100PX;
 }
+
