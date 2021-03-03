@@ -39,7 +39,8 @@ h1{
     float: left;
     margin: 20px 2.5% 0 2.5%  ;
     background-size: contain;
-}
+/*     overflow: hidden;
+ */}
 
 img{
     width: 100%;
@@ -48,6 +49,8 @@ img{
     background-color: white;
     display: none;
     position: relative;
+   
+    
 }
 
 h2{
@@ -60,14 +63,27 @@ h2{
 .form.active h2 ,
 .form.active img {
     display: inline-block;
+    background-image: none;
 
+}
+
+.form.active{
+    background-image: none;
+    background-color:white ;
 }
 .form:hover h2{
     display: inline-block;
-}
+    
+    }
 
 .form:hover img{
     display: inline-block;
+   
+}
+.form:hover {
+    background-color: white;
+    background-image: none;
+
 }
 
 .balloon + h2{
